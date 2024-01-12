@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --siyah:#000;
+    --beyaz:#fff;
+    --seffaf: rgba(165, 151, 151, 0.5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "foto2"
+    "Foto3"
+    "Foto4"
+    "Foto5"
+    "Foto6"
+    "Foto7"
+    "alt"
+    ;
+
+    grid-template-rows: 150px 110vh 115vh 110vh 110vh 110vh 110vh  200px  ;
+    gap: 5px;
+    
+
+}
+
+
+    header{
+        font-family: 'DM Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        flex-wrap: wrap;
+        grid-area: header;
+        
+
+}
+
+header>.ara>:nth-child(2)
+{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+header > img{
+ width: 85px;
+ height: 85px;
+}
+header > .baslık{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+   
+}
+header > .baslık > a{
+    margin-left: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+header > .baslık > a:hover{
+    color: rgb(255, 0, 0);
+}
+main
+{
+    background: url(/muhammedEmin/images/galeri1.webp) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    
+}
+main>a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+main> a:hover
+{
+font-size: 20px;
+color: blue;
+}
+
+main>img
+{
+width: 1920px;
+
+}
+main>h2
+{
+    color: white;
+}
+main>h3
+{
+    color: white;
+}
+.foto2>img
+{
+    width: 1920px;
+}
+.foto3>img
+{
+    width: 1920px;
+    
+    
+}
+.foto4>img
+{
+    
+    width: 1920px;
+    
+}
+.foto5>img
+{
+    width: 1920px;
+}
+.foto6>img
+{
+    width: 1920px;
+}
+.foto7>img
+{
+    width: 1920px;
+}
+
+
+
+
+
+
+
+footer
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(120, 114, 122);
+    padding: 20px;
+    
+}
+footer>img
+{
+width: 150px;
+height: 150px;
+}
+
+footer>.sayfalar1{
+    
+    display: flex;
+    flex-direction: column;
+}
+footer>.sayfalar1>a
+{
+    text-decoration: none;
+    color: black;
+}
+footer>.sayfa2>a
+{
+    text-decoration: none;
+    color: black;
+}
+footer>.sayfa3>a
+{
+    text-decoration: none;
+    color: black;
+}
+footer>.sayfa2{
+
+    display: flex;
+    flex-direction: column;
+}
+footer>.sayfa3{
+
+    display: flex;
+    flex-direction: column;
+}
+footer>.sayfalar1>a:hover
+{
+    color: white;
+}
+footer>.sayfa2>a:hover
+{
+    color: white;
+}
+footer>.sayfa3>a:hover
+{
+    color: white;
+}
+    
+  
